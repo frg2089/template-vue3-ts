@@ -12,6 +12,9 @@ parserOptions:
   sourceType: module
   extraFileExtensions:
     - .vue
+  project:
+    - ./tsconfig.json
+    - ./tsconfig.node.json
 plugins:
   - vue
 rules: {}
